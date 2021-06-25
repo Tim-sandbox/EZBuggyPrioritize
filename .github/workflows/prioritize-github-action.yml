@@ -32,6 +32,7 @@ jobs:
           WS_MAVEN_RESOLVEDEPENDENCIES: true
           WS_MAVEN_AGGREGATEMODULES: true
           WS_FILESYSTEMSCAN: false
+          WS_GENERATEPROJECTDETAILSJSON: true
         run: |
           curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
           echo Unified Agent downloaded successfully
